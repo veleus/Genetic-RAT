@@ -14,7 +14,7 @@ class Rat:
         self.man = man
         self.woman = woman
         self.harizm = 0.2
-        self.model = KMeans(n_clusters=2, n_init=1)  # Set the value of n_init explicitly
+        self.model = KMeans(n_clusters=2, n_init=1) 
 
     def train(self):
         X = []
