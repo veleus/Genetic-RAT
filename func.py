@@ -76,7 +76,7 @@ for _ in range(1000):
 
     
     font = pygame.font.Font(None, 36)
-    text = font.render("сочных мужчин: " + str(man) + "  посудомоек: " + str(woman), True, WHITE)
+    text = font.render("сочных мужчин: " + str(man) + "  Женщин: " + str(woman), True, WHITE)
     screen.blit(text, (100, 300))
 
     pygame.display.flip()  
